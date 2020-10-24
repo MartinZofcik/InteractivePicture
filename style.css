@@ -1,0 +1,74 @@
+head, body, footer{
+    font-family: sans-serif;
+  background-color: dimgrey;
+}
+
+footer{
+    text-align: center;
+}
+
+.tool a{
+    color: white;
+}
+
+footer a{
+    color: black;
+}
+
+.map{
+    background-image: url("desktop-setup.jpg");
+    width:680px;
+    height:680px;
+    margin-left:auto;
+    margin-right:auto;    
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.mark{
+    background-image:url("iconmonstr-magnifier.png");
+    background-size: cover;
+    position:relative;
+    width:20px;
+    height:20px;
+}
+
+.tool{
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+    visibility: hidden;
+    position: relative;
+    display: inline-block;    
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px 0;
+    width:200px;
+    left:100%;
+    top:-5px;
+}
+
+.mark:hover .tool{
+    visibility: visible;
+}
+
+#lg{
+    left:45%;
+    top:40%; 
+}
+#mac{
+    left:80%;
+    top:40%; 
+}
+#keyboard{
+    left:30%;
+    top:60%; 
+}
+#mouse{
+    left:45%;
+    top:61%; 
+}
+#ipad{
+    left:62%;
+    top:55%; 
+}
